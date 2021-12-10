@@ -4,11 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netlify</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Ibrahim Ali</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/78a36c4676.js"></script>  
 </head>
 <body>
-    <h1>Wow look at this cool website!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius non dolore molestiae quis laudantium, eligendi aliquam harum reprehenderit vitae, nihil ipsum officiis eaque maiores ullam ad sunt consequuntur ducimus.</p>
+    <header class="wrapper">
+            <svg width="50" height="50" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2_5)">
+                <path d="M11.2787 13.8526C13.4221 13.8526 15.1596 12.1151 15.1596 9.9717C15.1596 7.82833 13.4221 6.09078 11.2787 6.09078C9.13531 6.09078 7.39777 7.82833 7.39777 9.9717C7.39777 12.1151 9.13531 13.8526 11.2787 13.8526Z" fill="black"/>
+                <path d="M11.5044 25.1677C13.7724 25.1677 15.611 22.7374 15.611 19.7395C15.611 16.7416 13.7724 14.3113 11.5044 14.3113C9.23637 14.3113 7.39777 16.7416 7.39777 19.7395C7.39777 22.7374 9.23637 25.1677 11.5044 25.1677Z" fill="black"/>
+                <path d="M23.6022 15.4144C23.6022 20.7553 23.5513 25.1677 23.5513 25.1677C15.3635 25.5572 16.219 19.1789 16.2918 15.4909C16.4484 7.50699 16.2664 7.58344 14.0128 5.83958C21.6436 5.41726 23.6022 10.0773 23.6022 15.4144Z" fill="black"/>
+                <path d="M15.5018 30.8653C23.9868 30.8653 30.8653 23.9868 30.8653 15.5018C30.8653 7.01681 23.9868 0.138344 15.5018 0.138344C7.01681 0.138344 0.138344 7.01681 0.138344 15.5018C0.138344 23.9868 7.01681 30.8653 15.5018 30.8653Z" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2_5">
+                <rect width="50" height="50" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>      
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main class="wrapper">
+        <section class="hero">
+            <div class="description">
+                <p>
+                <span>Hello! I'm Ibrahim,</span>
+                <span>a front-end developer</span>
+                <span>from Toronto.</span>
+                </p>     
+                <p>
+                <span>Learn more <a href="#About">about me</a>.</span>     
+                <span>Check out my <a href="#Projects">work</a>.</span>
+                <span>Read my <a href="https://blog.ibrahimali.ca">blog</a>.</span>
+                </p>
+            </div>
+            <div class="main-image">
+                <img class="main-pic" src="images/profile.png">
+            </div>
+        </section>
+        <section class="Projects" id="Projects">
+            <h3>Projects</h3>
+            <hr>
+            <div class="projects-wrapper">
+                <div class="project-1">
+                    <a href="https://ibrahimali-ca.github.io/Ibrahim-Ali-Project-Two/">
+                        <img src="./images/Captured-home.png">
+                    </a>
+                    <figcaption class="proj-cap">html5/css3 multi-page website</figcaption>
+                </div>
+                <div class="project-2">
+                    <a href="https://jovial-tereshkova-b24d81.netlify.app/">
+                        <img src="./images/project-2.png">
+                    </a>
+                    <div class="proj-cap">a quiz app using open trivia db</div>
+                </div>
+                <div class="project-3">
+                    <a href="https://ethical-makeup-4.netlify.app/">
+                        <img src="./images/project-3.png">
+                    </a>
+                    <figcaption class="proj-cap">react app using makeup-api</figcaption>
+                </div>
+            </div>
+        </section>
+        <section class="about-me" id="About">
+            <h3>About Me</h3>
+            <hr>
+            <div class="projects-wrapper">
+            <div class="about-me-text">
+               <p> During my career, I've helped organizations with marketing, sales, and operations. Most recently, web development has become an obsession of mine. 
+
+                When I'm offline I enjoy spending time w/ family + friends, exercising, and learning.
+               </p>
+            </div>
+        </section>
+        <section class="contact" id="Contact">
+            <h3>Say Hi</h3>
+            <hr>
+            <div class="contact-wrapper">
+                <div class="contact-me-text">
+                    <p>
+                        Looking for a developer or just wanna say<em>what's up?</em> Fill out the contact form and I'll get back to you promptly.
+                    </p>
+                    <p>
+                        Otherwise, you can send a raven to: ibrahim [at] ibrahimali [dot] ca
+                    </p>
+                </div>
+                <div class="contact-form">
+                    <form
+                    action="https://formspree.io/f/xgedeaav"
+                    method="POST"
+                    >
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer>
+            <div class="footer-wrapper">
+                <svg width="50" height="50" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2_5)">
+                    <path d="M11.2787 13.8526C13.4221 13.8526 15.1596 12.1151 15.1596 9.9717C15.1596 7.82833 13.4221 6.09078 11.2787 6.09078C9.13531 6.09078 7.39777 7.82833 7.39777 9.9717C7.39777 12.1151 9.13531 13.8526 11.2787 13.8526Z" fill="black"/>
+                    <path d="M11.5044 25.1677C13.7724 25.1677 15.611 22.7374 15.611 19.7395C15.611 16.7416 13.7724 14.3113 11.5044 14.3113C9.23637 14.3113 7.39777 16.7416 7.39777 19.7395C7.39777 22.7374 9.23637 25.1677 11.5044 25.1677Z" fill="black"/>
+                    <path d="M23.6022 15.4144C23.6022 20.7553 23.5513 25.1677 23.5513 25.1677C15.3635 25.5572 16.219 19.1789 16.2918 15.4909C16.4484 7.50699 16.2664 7.58344 14.0128 5.83958C21.6436 5.41726 23.6022 10.0773 23.6022 15.4144Z" fill="black"/>
+                    <path d="M15.5018 30.8653C23.9868 30.8653 30.8653 23.9868 30.8653 15.5018C30.8653 7.01681 23.9868 0.138344 15.5018 0.138344C7.01681 0.138344 0.138344 7.01681 0.138344 15.5018C0.138344 23.9868 7.01681 30.8653 15.5018 30.8653Z" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_2_5">
+                    <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg> 
+                    <p>
+                        © 2021 Ibrahim Ali
+                    </p>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/mribrahimali/" class="linkedin">
+                                <svg width="31" height="31" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.95357 40.2507H0.660714V13.3785H8.95357V40.2507ZM4.80268 9.71286C2.15089 9.71286 0 7.5027 0 4.83434C1.89803e-08 3.55263 0.505995 2.32342 1.40667 1.41711C2.30735 0.510805 3.52893 0.00164795 4.80268 0.00164795C6.07643 0.00164795 7.29801 0.510805 8.19869 1.41711C9.09936 2.32342 9.60536 3.55263 9.60536 4.83434C9.60536 7.5027 7.45357 9.71286 4.80268 9.71286ZM39.9911 40.2507H31.7161V27.1695C31.7161 24.0519 31.6536 20.0539 27.4045 20.0539C23.0929 20.0539 22.4321 23.441 22.4321 26.9449V40.2507H14.1482V13.3785H22.1018V17.0441H22.2179C23.325 14.9328 26.0295 12.7047 30.0643 12.7047C38.4571 12.7047 40 18.266 40 25.4894V40.2507H39.9911Z" fill="black"/>
+                                    </svg>           
+                            </a>
+                        </li>
+                        <li><a href="https://wwww.twitter.com/frontend-ia" class="twitter">
+                            <svg width="31" height="27" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27.8134 7.18592C27.8331 7.46129 27.8331 7.73672 27.8331 8.01209C27.8331 16.4111 21.4404 26.0888 9.75634 26.0888C6.15671 26.0888 2.81283 25.0463 0 23.2367C0.511439 23.2957 1.00314 23.3154 1.53426 23.3154C4.50439 23.3154 7.23856 22.3122 9.42194 20.6009C6.62879 20.5419 4.28805 18.7126 3.48157 16.1948C3.875 16.2538 4.26837 16.2931 4.68148 16.2931C5.2519 16.2931 5.82237 16.2144 6.35343 16.0768C3.44227 15.4867 1.25883 12.9296 1.25883 9.84139V9.76274C2.10461 10.2348 3.08819 10.5299 4.13063 10.5692C2.41933 9.42828 1.29819 7.48097 1.29819 5.27791C1.29819 4.09773 1.61285 3.01588 2.16364 2.07171C5.29119 5.92703 9.99235 8.44475 15.2639 8.72018C15.1655 8.2481 15.1065 7.7564 15.1065 7.26464C15.1065 3.76333 17.939 0.911209 21.4599 0.911209C23.2892 0.911209 24.9415 1.67834 26.1021 2.91755C27.5379 2.64218 28.9148 2.11107 30.1344 1.38329C29.6623 2.85858 28.6591 4.09779 27.3413 4.88454C28.6198 4.74691 29.8591 4.39278 30.9999 3.90107C30.1345 5.1599 29.0526 6.28105 27.8134 7.18592V7.18592Z" fill="black"/>
+                            </svg>
+                            </a></li>
+                        <li>
+                            <a href="https://github.com/ibrahimali-ca/" class="github">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.3687 24.9612C10.3687 25.0894 10.225 25.1919 10.0437 25.1919C9.8375 25.2112 9.69375 25.1086 9.69375 24.9612C9.69375 24.833 9.8375 24.7304 10.0188 24.7304C10.2063 24.7112 10.3687 24.8137 10.3687 24.9612ZM8.425 24.6727C8.38125 24.8009 8.50625 24.9483 8.69375 24.9868C8.85625 25.0509 9.04375 24.9868 9.08125 24.8586C9.11875 24.7304 9 24.583 8.8125 24.5253C8.65 24.4804 8.46875 24.5445 8.425 24.6727ZM11.1875 24.5637C11.0062 24.6086 10.8812 24.7304 10.9 24.8778C10.9187 25.006 11.0813 25.0894 11.2688 25.0445C11.45 24.9996 11.575 24.8778 11.5562 24.7496C11.5375 24.6278 11.3688 24.5445 11.1875 24.5637ZM15.3 0C6.63125 0 0 6.7499 0 15.6408C0 22.7496 4.3625 28.8329 10.5938 30.9739C11.3938 31.1213 11.675 30.6149 11.675 30.1983C11.675 29.8008 11.6562 27.6085 11.6562 26.2624C11.6562 26.2624 7.28125 27.2239 6.3625 24.3522C6.3625 24.3522 5.65 22.4868 4.625 22.0061C4.625 22.0061 3.19375 20.9997 4.725 21.0189C4.725 21.0189 6.28125 21.1471 7.1375 22.6727C8.50625 25.147 10.8 24.4355 11.6938 24.0125C11.8375 22.9868 12.2438 22.2753 12.6938 21.8522C9.2 21.4548 5.675 20.9356 5.675 14.769C5.675 13.0062 6.15 12.1216 7.15 10.9934C6.9875 10.5768 6.45625 8.85884 7.3125 6.64092C8.61875 6.22426 11.625 8.37167 11.625 8.37167C12.875 8.0127 14.2188 7.8268 15.55 7.8268C16.8813 7.8268 18.225 8.0127 19.475 8.37167C19.475 8.37167 22.4813 6.21785 23.7875 6.64092C24.6438 8.86525 24.1125 10.5768 23.95 10.9934C24.95 12.128 25.5625 13.0126 25.5625 14.769C25.5625 20.9548 21.8813 21.4484 18.3875 21.8522C18.9625 22.3586 19.45 23.3202 19.45 24.8265C19.45 26.9868 19.4312 29.6598 19.4312 30.1854C19.4312 30.6021 19.7188 31.1085 20.5125 30.9611C26.7625 28.8329 31 22.7496 31 15.6408C31 6.7499 23.9688 0 15.3 0ZM6.075 22.1086C5.99375 22.1727 6.0125 22.3202 6.11875 22.442C6.21875 22.5445 6.3625 22.5894 6.44375 22.5061C6.525 22.442 6.50625 22.2945 6.4 22.1727C6.3 22.0702 6.15625 22.0253 6.075 22.1086ZM5.4 21.5894C5.35625 21.6727 5.41875 21.7753 5.54375 21.8394C5.64375 21.9035 5.76875 21.8843 5.8125 21.7945C5.85625 21.7112 5.79375 21.6086 5.66875 21.5445C5.54375 21.5061 5.44375 21.5253 5.4 21.5894ZM7.425 23.8714C7.325 23.9548 7.3625 24.1471 7.50625 24.2689C7.65 24.4163 7.83125 24.4355 7.9125 24.333C7.99375 24.2496 7.95625 24.0573 7.83125 23.9355C7.69375 23.7881 7.50625 23.7689 7.425 23.8714ZM6.7125 22.9291C6.6125 22.9932 6.6125 23.1599 6.7125 23.3073C6.8125 23.4548 6.98125 23.5189 7.0625 23.4548C7.1625 23.3714 7.1625 23.2048 7.0625 23.0573C6.975 22.9099 6.8125 22.8458 6.7125 22.9291Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </footer>
 </body>
 </html>
